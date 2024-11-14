@@ -1,0 +1,90 @@
+.logo-image {/*Si uso*/
+    width: 200px; /* Ajusta el tamaño del logo */
+    height: auto;
+}
+body {
+    background: url(Fondo.webp);
+    background-color: #e9ba84;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #333333; /* Color oscuro para el texto */
+}
+
+header {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 1px;
+}
+
+nav ul {
+    margin-top: 0px;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(244, 225, 193); /* Fondo semitransparente */
+}
+
+nav a {
+    color: #333333; /* Color oscuro para el texto de los enlaces */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #333333;
+}
+.bienvenida {
+    text-align: center;
+    font-family: 'Calisto MT', serif;
+    font-size: 2.5em;
+    color: #040caa;
+    background-color: #f4e1c1; /* Fondo blanco semitransparente */
+    padding: 10px;
+}
+
+.introduccion {
+    padding: 20px;  
+    text-align: left;
+    border-radius: 15px;
+    background-color:rgba(100, 148, 237, 0.877) ; /* Fondo blanco semitransparente */
+}
+
+h2, p {
+    color: #333333; /* Color oscuro para el texto */
+}
+.cita {
+    background-color: #f4e1c1;
+    color: #333333;
+    font-size: 1.5em;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 15px; /* Bordes redondeados */
+    width: 80%; /* Ajusta el ancho según necesites */
+}
+.frase {
+    margin: 0; /* Elimina el margen para que la frase y el autor estén juntos */
+}
+.autor {
+    font-weight: bold; /* Destaca el nombre del autor */
+    margin-top: 10px; /* Espacio superior entre la frase y el autor */
+    font-size: 0.9em; /* Tamaño de fuente un poco más pequeño */
+}
+.video-container {
+    text-align: center; /* Centra el video */
+    margin-top: 20px;
+}
+
+.video-size {
+    width: 100%; /* Ajusta el video al ancho del contenedor */
+    max-width: 800px; /* Tamaño máximo del video */
+    height: auto; /* Mantiene la proporción */
+}
+        /* Estilos para alinear las imágenes de los personajes principales */
+        .personajes {
+            display: flex;
+            gap: 20px; /* Espacio entre cada personaje */
+        }
+

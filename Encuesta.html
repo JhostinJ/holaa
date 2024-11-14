@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="estilo.css"> <!-- Aquí se enlaza el archivo CSS -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Logo.png" alt="Logooo" class="logo-image">
+        </div>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Episodio1.html">Episodio 1</a></li>
+            <li><a href="Episodio2.html">Episodio 2</a></li>
+            <li><a href="Encuesta.html">Contactos</a></li>
+        </ul>
+    </nav>
+    <div class="cita">
+        <p class="frase">"La vida es algo precioso, y lo que haces con ella depende de ti."</p>
+        <p class="autor">Portgas D. Ace</p>
+    </div>
+
+    <h1 class="bienvenida">Contactos</h1> <!-- Se aplica la clase bienvenida -->
+
+    <section class="introduccion">
+        <h2 style="font-family: 'Bradley Hand', cursive;">Responde esta encuesta </h2>
+        <form action="" method="post">
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required><br><br>
+
+            <label for="telefono">Número de Teléfono</label><br>
+            <input type="tel" id="telefono" name="telefono" placeholder="1234567890"><br><br>
+
+            <label for="fecha-nacimiento">Fecha de nacimiento</label><br>
+            <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required><br><br>
+
+            <label>Género</label><br>
+            <input type="radio" id="masculino" name="sexo" value="Masculino">
+            <label for="masculino">Masculino</label><br>
+
+            <input type="radio" id="femenino" name="sexo" value="Femenino">
+            <label for="femenino">Femenino</label><br><br>
+
+            <label for="verificacion">Verifica que no eres un robot</label><br>
+            <input type="checkbox" id="verificacion" name="verificacion" value="si" required><br><br>
+
+            <div style="text-align: center;">
+                <input type="submit" value="Registrarse">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="cita">
+            <label for="consejo">Aconséjanos</label><br>
+            <textarea style="width: 200px; height: 100px;" placeholder="Escribe aquí tu consejo..."></textarea><br><br>
+            <input type="submit">
+        </div>
+    </footer>
+</body>
+</html>
+
